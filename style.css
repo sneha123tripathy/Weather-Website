@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-sarif';
+}
+
+body{
+    background-image: url(body\ background\ 1.jpg);  
+    height: fit-content;
+    width: 100vw;
+}
+
+
+.box{
+    height: 75%;
+    width: 28%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 12px;
+    background-color:#10457a6b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+/* SearchBox Code*/
+
+.search input{
+    background-color: rgba(12, 40, 63, 0.753);
+    border-radius: 19px;
+    padding: 10px;
+    font-size: 18px;
+    border-style: none;
+    height: 40px;
+}
+.search button{
+    background-color: white;
+    border-radius: 50px;
+    border-style: none;
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+.search img{
+   height: 12px;
+   width: 11px;
+   cursor: pointer;
+}
+
+/* Weather Code*/
+
+.Weather img{
+    width: 80px;
+    margin: 10px;
+}
+.Temp{
+    font-size: 45px;
+    font-weight: 600px;
+    color: aliceblue;
+
+}
+.City{
+    font-size: 30px;
+    font-weight: 400px;
+    color: aliceblue;
+}
+
+/*Details Code*/
+.Details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.Content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Humidity Code*/
+
+.Humidity{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+}
+.Humidity img{
+    width: 40px;
+}
+.Percent{
+    color: aliceblue;
+    font-size: 16px;
+}
+.Humidity p{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+/* Wind-Speed Code*/
+
+.Wind-Speed{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+}
+.Wind-Speed img{
+    width: 40px;
+}
+.Speed{
+    color: aliceblue;
+    font-size: 16px;
+}
+.Wind-Speed p{
+    color: aliceblue;
+    font-size: 16px;
+}
